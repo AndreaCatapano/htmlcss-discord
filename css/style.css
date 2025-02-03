@@ -3,16 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
 
 /*Debug*/
-
-.debug #item-green{
-    height: 900px;
-    background-color: #228b22;
-}
-
 
 .debug .flexbox-5-elements{
     height: 500px;
@@ -28,6 +21,9 @@
 }
 
 /*General*/
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
 
 .mpb-default{
     max-width: 1200px;
@@ -35,17 +31,22 @@
 }
 
 .button-default{
-    padding: 15px;
+    padding: 18px;
     background-color: white;
     border: 1px solid white;
-    border-radius: 35px;
+    border-radius: 99em;
     color: black;
-    font-weight: 600;
 }
 
 .black-button{
     background-color: #23272a;
     border-color: #23272a;
+    color: white;
+}
+
+.blue-button{
+    background-color: #7288DA;
+    border-color: #7288DA;
     color: white;
 }
 
@@ -104,22 +105,24 @@ header{
 
 /*Main: Main-Section*/
 
+main {
+    background-color: white;
+}
+
+main .main-section:nth-of-type(odd){
+    background-color: #F6F6F6;
+}
+
 .main-section {
-    background-color: #ffffff;
-}
-
-.main-section .main-container:nth-of-type(even){
-    background-color: #d3d3d3;
-}
-
-.main-container {
     padding: 30px 0;
 }
+
 
 /*Main: flexbox-2-elements*/
 
 .flexbox-2-elements{
     display: flex;
+    margin-bottom: 80px;
 }
 
 .reverse{
@@ -137,8 +140,8 @@ header{
 }
 
 .flexitem-small > h2{
-    line-height: 1.5;
-    font-size: 48px;
+    line-height: 1.2;
+    font-size: 44px;
     margin-bottom: 60px;
 }
 
@@ -147,7 +150,53 @@ header{
     font-size: 24px;
 }
 
-/*Main: multi-flexbox*/
+/*Main: main-container*/
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container > h2{
+    line-height: 1.2;
+    font-size: 44px;
+    padding: 60px 10px 40px;
+}
+
+.main-container > p{
+    line-height: 1.4;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 150px;
+}
+
+.main-container > h3{
+    line-height: 1.4;
+    font-size: 22px;
+    padding: 40px;
+
+    background-image: url("../img/stars.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+.main-container > button{
+    margin-bottom: 80px ;
+}
+
+
+/*Footer*/
+
+footer{
+    background-color:#23272a;
+    padding-top: 20px;
+}
+
+
+/*Footer: multi-flexbox*/
 
 #black-container{
     background-color:#23272a;
@@ -168,12 +217,8 @@ header{
 }
 
 
-/*Footer*/
+/*Footer: links*/
 
-footer{
-    background-color:#23272a;
-    padding-top: 20px;
-}
 
 .flexbox-footer{
     background-color: #7fffd4;
