@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
 
 /*Debug*/
@@ -51,26 +52,35 @@
 }
 
 
-a{
+
+
+.button-default{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 35px;
     color: black;
-    text-decoration: none;
 }
 
 /*Header*/
 
 header{
-    background-color:#add8e6;
+    background-color:#255ee9;
     padding: 15px;
 }
 
 .header-flexbox{
-    background-color: #daa520;
     padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.header-links > a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
 
 /*Main*/
 
