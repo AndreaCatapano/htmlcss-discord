@@ -1,0 +1,153 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Debug*/
+
+.debug #pink-container{
+    height: 400px;
+    width: 900px;
+    background-color: #ee82ee;
+}
+
+.debug .flexbox-2-elements{
+    height: 500px;
+}
+
+.debug #item-green{
+    height: 900px;
+    background-color: #228b22;
+}
+
+.debug .flexitem-big{
+    background-color: #1e90ff;
+}
+
+.debug .flexitem-small{
+    background-color: #ffc0cb;
+}
+
+.debug .flexbox-5-elements{
+    height: 500px;
+    background-color:#f08080;
+}
+
+.debug #flex-width-block{
+    width: 360px;
+}
+
+.debug .flexbox-4-elements{
+    background-color: #20b2aa;
+}
+
+/*General*/
+
+.mpb-default{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Header*/
+
+header{
+    background-color:#add8e6;
+    padding: 15px;
+}
+
+.header-flexbox{
+    background-color: #daa520;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*Main*/
+
+.blue-container{
+    background-color:#00008b;
+    padding: 30px 0 ;
+}
+
+/*Main: Main-Section*/
+
+.main-section {
+    background-color: #ffffff;
+}
+
+.main-section .main-container:nth-of-type(even){
+    background-color: #d3d3d3;
+}
+
+.main-container {
+    padding: 30px 0;
+}
+
+/*Main: flexbox-2-elements*/
+
+.flexbox-2-elements{
+    display: flex;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.flexitem-big{
+    flex-grow: 2;
+}
+
+.flexitem-small{
+    flex-grow: 1;
+}
+
+/*Main: multi-flexbox*/
+
+#black-container{
+    background-color:#23272a;
+    padding: 15px 0 40px;
+    margin-bottom: 1px;
+}
+
+.flexbox-5-elements{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox-4-elements{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*Footer*/
+
+footer{
+    background-color:#23272a;
+    padding-top: 20px;
+}
+
+.flexbox-footer{
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.flexitem-footer{
+    background-color: #ffb6c1;
+    padding: 5px;
+}
