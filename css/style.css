@@ -8,22 +8,11 @@
 
 /*Debug*/
 
-.debug .flexbox-2-elements{
-    height: 500px;
-}
-
 .debug #item-green{
     height: 900px;
     background-color: #228b22;
 }
 
-.debug .flexitem-big{
-    background-color: #1e90ff;
-}
-
-.debug .flexitem-small{
-    background-color: #ffc0cb;
-}
 
 .debug .flexbox-5-elements{
     height: 500px;
@@ -139,10 +128,23 @@ header{
 
 .flexitem-big{
     flex-grow: 2;
+    padding: 10px;
 }
 
 .flexitem-small{
     flex-grow: 1;
+    padding: 30px;
+}
+
+.flexitem-small > h2{
+    line-height: 1.5;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.flexitem-small > p{
+    line-height: 1.6;
+    font-size: 24px;
 }
 
 /*Main: multi-flexbox*/
