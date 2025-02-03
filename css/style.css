@@ -16,7 +16,7 @@ body{
 }
 
 .button-default{
-    padding: 18px;
+    padding: 12px 18px;
     background-color: white;
     border: 1px solid white;
     border-radius: 99em;
@@ -191,6 +191,9 @@ footer h3{
     color: #7288DA;
 }
 
+.footer-divider{
+    border: 1px solid #6477BB;
+}
 /*Footer: multi-flexbox*/
 
 .flexbox-5-elements{
@@ -239,15 +242,15 @@ footer h3{
     list-style: none;
 }
 
+
 /*Footer: links*/
 
 
 .flexbox-footer{
-    background-color: #7fffd4;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0 40px;
 }
 
 .flexitem-footer{
