@@ -199,6 +199,7 @@ footer h3{
 .flexbox-5-elements{
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
 #flex-item-language{
@@ -250,7 +251,7 @@ footer h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0 40px;
+    padding: 20px 0 40px;
 }
 
 .flexitem-footer{
